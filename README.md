@@ -19,7 +19,7 @@ Sobre el Curso
 =================
 * Horario: Martes y Jueves de 19h a 22h
 * Fechas: 17/03/2016 - 31/05/2016
-* Festivos: 22/03/2016 y 14/03/2016
+* Festivos: 22/03/2016 y 24/03/2016
 
 Teoría y Recursos
 =================
