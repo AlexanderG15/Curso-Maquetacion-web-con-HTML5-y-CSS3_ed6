@@ -72,7 +72,7 @@
     <!DOCTYPE html>
   ```
   - [Versiones anteriores](http://www.htmlhelp.com/tools/validator/doctype.html)
-- **Etiqueta HTML**
+- **Etiqueta &lt;html&gt;**
   - Abre y cierra el documento.
   - Todo se engloba dentro de esta etiqueta
   - HTML5:
@@ -82,7 +82,7 @@
       <!-- CONTNEIDO -->
     </html>
   ```
-- **Etiqueta HEAD**
+- **Etiqueta &lt;head&gt;**
   -  Información sobre el documento, cabecera
   -  No es obligatorio, aunque si muy recomendado
   -  Etiquetas interiores:
@@ -153,9 +153,12 @@
           <head>
             <!-- Refrescar cada 30 segundos -->
             <meta http-equiv="refresh" content="30">
+            <!-- redireccionamiento a Fictizia.com sin esperar (0 segundos) -->
+            <META http-equiv="refresh" content="0;URL=http://www.fictizia.com/">
+
           </head>
       ```             
-- **Etiqueta BODY**
+- **Etiqueta &lt;body&gt;**
   - Contenido del documento
 
 

@@ -3,14 +3,14 @@
 ### HTML
 
 - [La importancia de comentar correctamente](https://developer.mozilla.org/es/docs/Web/HTML/La_importancia_de_comentar_correctamente)
-- [< !DOCTYPE > en MDN](https://developer.mozilla.org/en-US/docs/Glossary/Doctype)
-- [< html > en MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html)
-- [< head > en MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head)
-- [< base > en MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base)
-- [< link > en MDN](https://developer.mozilla.org/es/docs/Web/HTML/Elemento/link)
-- [< meta > en MDN](https://developer.mozilla.org/es/docs/Web/HTML/Elemento/meta)
-- [< meta charset > en W3School](http://www.w3schools.com/tags/att_meta_charset.asp)
-- [< body > en MDN](https://developer.mozilla.org/es/docs/Web/HTML/Elemento/body)
+- [&lt;!DOCTYPE html&gt; en MDN](https://developer.mozilla.org/en-US/docs/Glossary/Doctype)
+- [&lt;html&gt; en MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html)
+- [&lt;head&gt; en MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head)
+- [&lt;base&gt; en MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base)
+- [&lt;link&gt; en MDN](https://developer.mozilla.org/es/docs/Web/HTML/Elemento/link)
+- [&lt;meta&gt; en MDN](https://developer.mozilla.org/es/docs/Web/HTML/Elemento/meta)
+- [&lt;meta  charset&gt; en W3School](http://www.w3schools.com/tags/att_meta_charset.asp)
+- [&lt;body&gt;  en MDN](https://developer.mozilla.org/es/docs/Web/HTML/Elemento/body)
 
 ### Validación del HTML
 
