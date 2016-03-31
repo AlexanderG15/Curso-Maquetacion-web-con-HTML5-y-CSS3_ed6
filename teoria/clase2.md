@@ -221,7 +221,20 @@
     
 - **2 -** Crea una página web con todos los metadatos que ayuden a que mejorar el posicionamiento SEO
 ```html
-	<!-- Tu solución -->
+	<!DOCTYPE html>
+        <html>
+          <head>
+			<meta name="description" content="Un ejemplo de metas">
+			<!-- NO NECESARIO PARA SEO
+			<meta name="keywords" content="HTML,CSS,curso,prueba">
+			-->
+			<meta name="author" content="Ulises Gascón">
+			<meta charset="UTF-8">
+            <title>Fictizia - Curso Maquetación</title>
+          </head>
+		  <body>
+		  </body> 
+        </html>
 ```
     
 - **3 -** Crea una página web que se refresque cada 30 segundos.
