@@ -239,7 +239,16 @@
     
 - **3 -** Crea una página web que se refresque cada 30 segundos.
 ```html
-	<!-- Tu solución -->
+        <!DOCTYPE html>
+        <html>
+          <head>
+			<meta http-equiv="refresh" content="30">
+			<meta charset="UTF-8">
+            <title>Entramos en un bucle...</title>
+          </head>
+		  <body>
+		  </body> 
+        </html>
 ```
 
 - **4 -** Valida los ejercicios anteriores usando [W3C - Markup Validation Service](https://validator.w3.org)
