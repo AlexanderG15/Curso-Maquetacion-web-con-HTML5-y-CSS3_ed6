@@ -859,21 +859,18 @@
             </header>
                 <p>Lo primero que te voy a aconsejar es que te leas entero el especial que los compañeros de Xataka han realizado sobre el evento y otro excelente sobre los Bots; ya que este artículo tiene un enfoque mucho más técnico y funcional.</p>
                 <p>En esta segunda parte voy <strong>a revisar la inesperada deriva hacia la inteligencia artificial</strong> que ha mostrado Microsoft en esta Build 2016, con múltiples anuncios de servicios relacionados con la interacción virtual.</p>
-                <a href="http://www.genbetadev.com/actualidad/build-2016-skynet-esta-a-la-vuelta-de-la-esquina" target="_blank" title="Genbeta Dev - Build 2016, Skynet está a la vuelta de la esquina">Leer más »</a>
-                <footer>
                     <p><em>Categoria: Actualidad</em></p>
                 </footer>
         </article>
         <hr>
 <!-- 2 -->        
-        <article id="articulo2">
+        <article>
             <header>
                 <h3>Nueva Web de TypeScript 2</h3>
                 <p>por <strong>Juan Quijano</strong>. Hace <time datetime="2016-03-31">6 días</time></p>
             </header>
                 <p><strong>Type Script 2 es la segunda versión del conjunto de extensibilidad de JavaScript</strong> que permite realizar una programación tipada, orientada a objetos y que compila en EAMC 3 o superior.</p>
                 <p>Al principio se enfrento a resistencias en la comunidad, pero poco a poco ha ido ganando usuarios hasta recibir el espaldarazo final con el anuncio por parte del equipo de desarrollo de Angular JS, que su futura versión 2 se va a programar en Type Script.</p>
-                <a href="http://www.genbetadev.com/formacion/nueva-web-de-typescript-2" target="_blank" title="Genbeta Dev - Nueva Web de TypeScript 2">Leer más »</a>
                 <footer>
                     <p><em>Categoria: Actualidad</em></p>
                 </footer>
