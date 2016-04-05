@@ -80,7 +80,6 @@
         <!DOCTYPE html>
         <html>
           <head>
-            <meta http-equiv="refresh" content="30">
             <meta charset="UTF-8">
             <title>Links Internos</title>
           </head>
@@ -101,7 +100,6 @@
           <!DOCTYPE html>
           <html>
             <head>
-              <meta http-equiv="refresh" content="30">
               <meta charset="UTF-8">
               <title>Gifs y más gifs</title>
             </head>
@@ -142,7 +140,6 @@ usemap="#planetmap">
         <!DOCTYPE html>
         <html>
           <head>
-            <meta http-equiv="refresh" content="30">
             <meta charset="UTF-8">
             <title>Gifs y más gifs</title>
           </head>
@@ -151,7 +148,6 @@ usemap="#planetmap">
               <img src="https://45.media.tumblr.com/16dd14cdfe44aa04eff6631e77011526/tumblr_nllmvfQvgj1uqlfk4o1_500.gif" alt="Minions celebrando el éxito">
               <figcaption>Minions exaltados por el éxito de nuestro código Funcional.</figcaption>
             </figure>
-            <img src="">
           </body> 
         </html>
 ```
