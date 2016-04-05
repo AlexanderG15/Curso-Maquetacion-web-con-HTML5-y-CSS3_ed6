@@ -402,6 +402,7 @@
     </html>
 ```
   - Agrupa al menos dos etiquetas de tipo &lt;hx&gt;
+  - Obsoleto
 
 - **Etiqueta &lt;span&gt;**
 ```html
