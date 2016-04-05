@@ -171,13 +171,13 @@ Nota: Mínimo incluye 6 artículos de Genbeta Dev.
 ```
 
 **3 -** Haz una página típica de una empresa fictícia con imágenes y navegación entre distintos documentos.
-Datos mínimos:
+- Datos mínimos:
     - Index
     - Quiénes somos
     - Servicios
     - Portfolio
     - Contacto
-Trucos/Recursos:
+- Trucos/Recursos:
     - [Lorem Ipsum](http://es.lipsum.com/)
     - [Quijote Ipsum](http://www.quijotipsum.com/)
     - [Dynamic Dummy Image Generator](http://dummyimage.com/)
