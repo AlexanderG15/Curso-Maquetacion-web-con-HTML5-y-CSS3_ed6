@@ -165,24 +165,3 @@ Nota: Mínimo incluye 6 artículos de Genbeta Dev.
 ```html
     <!-- Tu solución -->
 ```
-
-**3 -** Haz una página típica de una empresa fictícia con imágenes y navegación entre distintos documentos.
-- Datos mínimos:
-    - Index
-    - Quiénes somos
-    - Servicios
-    - Portfolio
-    - Contacto
-- Trucos/Recursos:
-    - [Lorem Ipsum](http://es.lipsum.com/)
-    - [Quijote Ipsum](http://www.quijotipsum.com/)
-    - [Dynamic Dummy Image Generator](http://dummyimage.com/)
-    - [Placeimg](https://placeimg.com/)
-```html
-    <!-- Tu solución -->
-```
-
-**4 -** Adapta el diseño anterior para que funcione en un único documento que use enlaces internos.
-```html
-    <!-- Tu solución -->
-```
