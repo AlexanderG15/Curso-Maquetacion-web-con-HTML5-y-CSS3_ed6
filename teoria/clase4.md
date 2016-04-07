@@ -135,7 +135,7 @@ usemap="#planetmap">
 - Uso poco común
 - [DEMO](http://www.w3schools.com/tags/tryit.asp?filename=tryhtml_areamap)
 
-- **Etiqueta &lt;figure&gt; y &lt;figcaption&gt;****
+- **Etiqueta &lt;figure&gt; y &lt;figcaption&gt;**
 ```html
         <!DOCTYPE html>
         <html>
