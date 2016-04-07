@@ -1,0 +1,14 @@
+kbd {
+            background-color: #443333;
+            border-radius: 3px;
+            border: 1px solid #b4b4b4;
+            box-shadow: 0 1px 1px rgba(0,0,0,.2), 0 2px 0 0 rgba(90, 60, 60, 0.7)inset;
+            display: inline-block;
+            font-family: Consolas,"Liberation Mono",Courier,monospace;
+            font-size: .85em;
+            color: #FFFFFF;
+            font-weight: 700;
+            line-height: inherit;
+            padding: 2px 4px;
+            white-space: nowrap;
+        }

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="UTF-8">
+      <title>Lista con hipervinculos</title>
+      <base href='http://www.genbetadev.com/' target="_blank">
+    </head>
+    <body>
+        <h3>Lista</h3>
+        <ol>
+         <li><a href='actualidad/build-2016-skynet-esta-a-la-vuelta-de-la-esquina'>Build 2016, Skynet está a la vuelta de la esquina</a></li>
+         <li><a href='actualidad/build-2016-actualizaciones-de-la-mayoria-de-las-herramientas'>Build 2016, actualizaciones de la mayoría de las herramientas</a></li>
+         <li><a href='formacion/nueva-web-de-typescript-2'>Nueva web de Typescript 2</a></li>
+         <li><a href='software-libre-y-licencias/oracle-le-pide-9-mil-millones-a-google-por-licencias-de-java'>Oracle le pide 9 mil millones a Google, por licencias de Java</a></li>
+         <li><a href='trabajar-como-desarrollador/encuesta-stack-overflow-2016-iii'>Encuesta Stack Overflow 2016 (III)</a></li>
+         <li><a href='trabajar-como-desarrollador/portal-del-estudiante-de-microsoft-espana-una-pasada'>Portal del estudiante de Microsoft España, una pasada</a></li> 
+        </ol>
+    </body> 
+  </html>
