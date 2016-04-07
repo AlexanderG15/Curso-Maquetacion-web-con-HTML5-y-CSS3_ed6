@@ -713,10 +713,7 @@ Objetivos:
     }
 ```
 
-
-```html
-    <!-- Tu solución -->
-```
+**[Solución](../otros/clase5/ex1)** 
 
 **2 -** Vamos a construir la web de un restaurante inventado. 
 - Navegación:
