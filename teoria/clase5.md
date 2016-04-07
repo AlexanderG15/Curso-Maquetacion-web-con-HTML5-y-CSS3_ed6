@@ -726,7 +726,7 @@ Objetivos:
     - *adomicilio.html* Formulario completo para pedir para llevar la comida.
         - Datos del usuario ()
         - Elegir los platos
-        - Bontón de enviar / resetear
+        - Botón de enviar / resetear
 
 - Objetivos:
     - Menu de navegación común
