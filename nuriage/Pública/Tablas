@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+  
+      <meta charset="UTF-8">
+      <title>Etiquetas y tablas</title>
+      <base href='https://developer.mozilla.org/es/docs/Web/HTML/Elemento/' target="_blank">
+     </head>
+  
+      <h3>Tabla</h3>
+      <table>
+      	<thead>
+      		<tr>
+      		<th>Nombre</th>
+      		<th>Definición</th>
+      		<th>Documentación</th>
+      	</tr>
+</thead>
+<tbody>
+      	<!--Tabla1-->
+      	<tr>
+      		<td>&#60;table&#62;</td>
+      		<td>Abrir tabla</td>
+      		<td>En <a href='table' title='MDN'>MDN</a></td>
+      	</tr>
+      	<!--tr-->
+      	<tr>
+      		<td>&#60;tr&#62;</td>
+      		<td>Define la fila</td>
+      		<td>En <a href='tr' title='MDN'>MDN</a></td>
+      	</tr>
+      	<!--td-->
+      	<tr>
+      		<td>&#60;td&#62;</td>
+      		<td>Determina una celda</td>
+      		<td>En <a href='td' title='MDN'>MDN</a></td>
+      	</tr>
+      	<!--th-->
+      	<tr>
+      	 <td>&#60;th&#62;</td>
+      	 <td>Define la cabecera de una columna</td>
+      	 <td>En <a href='th' title='MDN'>MDN</a></td>
+        </tr>
+      <!--caption-->
+      <tr>
+      	<td>&#60;caption&#62;</td>
+      	<td>Muestra información adicional sobre la tabla</td>
+      	<td>En <a href='caption' title='MDN'>MDN</a></td>
+      </tr>
+      <!--thead-->
+      <tr>
+      	<td>&#60;thead&#62;</td>
+      	<td>Contenido cabecera</td>
+      	<td>En <a href='thead' title='MDN'>MDN</a></td>
+      </tr>
+      <!--tbody-->
+      <tr>
+      	<td>&#60;tbody&#62;</td>
+      	<td>Contenido principal</td>
+      	<td>En <a href='tbody' title='MDN'>MDN</a></td>
+      </tr>
+      <!--tfoot-->
+      <tr>
+      	<td>&#60;tfoot&#62;</td>
+      	<td>Contenido secundario</td>
+      	<td>En <a href='tfoot' title='MDN'>MDN</a></td>
+      </tr>
+      <!--colgroup-->
+      <tr>
+      	<td>&#60;colgroup&#62;</td>
+      	<td>Permite la agrupación de contenido</td>
+      	<td>En <a href='colgroup' title='MDN'>MDN</a></td>
+      </tr>
+      </tbody>
+      <tfoot>
+      	<tr>
+      		<td colspan="3"><a href='https://www.w3.org/TR/html-markup/table.html' title='W3C'>Recomendaciones del W3C</a></td>
+      	</tr>
+      </tfoot>
+  </table>
+</body>
+</html>
