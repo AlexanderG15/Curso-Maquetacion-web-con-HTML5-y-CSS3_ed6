@@ -1,0 +1,49 @@
+ <!DOCTYPE html>
+  <html>
+  <head>
+  	<meta charset="UTF-8">
+    <title>Contacto</title>
+  </head>
+  <body>
+    <h3>Contacto</h3>
+  	<ul>
+      <li type="disc">T: (+34) 91  542 80 19 </li>
+      <li type="disc">E: jorge@restaurantegabriel.com </li>
+      <li type="disc">Horario: 10AM- 2.30 AM </li>
+      <li type="circle">LUNES A SABADO: con deliciosos y variados desayunos y menús; siempre opción vegetariana. </li>
+      <li type="circle">MARTES A SABADO: Cenas a la carta siempre acompañadas con deliciosos cocktails artesanos. </li>
+    </ul>
+
+  <h4>Localización</h4>
+    <p>D: Calle Conde Duque, 10. Madrid.</p>
+
+    
+<p><h4>Encuéntranos aquí </h4></p>
+<p id="demo"></p>
+
+<script>
+var x = document.getElementById("demo");
+
+function getLocation() {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition);
+    } else { 
+        x.innerHTML = "Geolocation is not supported by this browser.";
+    }
+}
+
+function showPosition(position) {
+    x.innerHTML = "Latitude: " + position.coords.latitude + 
+    "<br>Longitude: " + position.coords.longitude;  
+}
+</script>
+<br>
+
+      <ul><a href='index.html'> Home </a></ul>
+      <ul><a href='carta.html'> Carta </a></ul>
+      <ul><a href='contacto.html'> Contacto </a></ul>
+      <ul><a href='adomicilio.html'> A domicilio </a></ul>
+
+
+</body>
+</html>
