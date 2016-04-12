@@ -1,11 +1,11 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
   <html>
   <head>
   	<meta charset="UTF-8">
     <title>Contacto</title>
   </head>
   <body>
-    <h3>Contacto</h3>
+    <h2>Contacto</h2>
   	<ul>
       <li type="disc">T: (+34) 91  542 80 19 </li>
       <li type="disc">E: jorge@restaurantegabriel.com </li>
@@ -15,15 +15,15 @@
     </ul>
 
   <h4>Localización</h4>
+   <p><h5>Encuéntranos aquí </h5></p>
     <p>D: Calle Conde Duque, 10. Madrid.</p>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.219534785734!2d-3.7134376846038095!3d40.426137479364066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422865ba5cc7df%3A0xacc58ed51ba432ca!2sCalle+Conde+Duque%2C+10%2C+28015+Madrid!5e0!3m2!1ses!2ses!4v1460487514310" width="600" height="450" frameborder="0" style="border:0" allowfullscreen>"></iframe>  
 
-    
-<p><h4>Encuéntranos aquí </h4></p>
-<p id="demo"></p>
+
+
 
 <script>
 var x = document.getElementById("demo");
-
 function getLocation() {
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(showPosition);
@@ -31,7 +31,6 @@ function getLocation() {
         x.innerHTML = "Geolocation is not supported by this browser.";
     }
 }
-
 function showPosition(position) {
     x.innerHTML = "Latitude: " + position.coords.latitude + 
     "<br>Longitude: " + position.coords.longitude;  
