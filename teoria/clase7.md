@@ -300,6 +300,7 @@ p#identificador { color: green; }
     text-decoration: none;
   }
 ```
+- [En CodePen](http://codepen.io/ulisesgascon/pen/VadPaG)
 - underline *línea por debajo*
 - overline *línea por encima*
 - line-through *efecto tachado*
@@ -502,7 +503,7 @@ Determinan el espacio que ocupa el elemento
 - border-box *desde el borde*
 - Define la zona en la que se sitúa el origen de la posición del fondo
 
-**imagen de fondo (hasta donde - posicionamiento)**
+**imagen de fondo (clip)**
 ```css
   body {
     /*no-repeat por defecto*/
