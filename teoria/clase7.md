@@ -544,14 +544,4 @@ body {
 **1 -** Crea una tabla de colores usando los colores con palabras reservadas y y otros 10 diseñados por ti.
 Para los colores reservados usa una fuente del sistema, para los otros elige una de [Google Fonts](https://www.google.com/fonts#)
 
-```html
-  <!-- Tu solución -->
-```
-
-**2 -** Basandote en el ejercicios anterior crea un conjuntos de *párrafos* que contenga todos los colores.
-
-```html
-  <!-- Tu solución -->
-```
-
-
+- [Solución](http://codepen.io/ulisesgascon/pen/vGrgJb)
