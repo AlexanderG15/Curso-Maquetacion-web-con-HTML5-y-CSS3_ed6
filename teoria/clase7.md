@@ -122,7 +122,7 @@
 **Colores**
 - [Herramientas](http://www.colorzilla.com/)
 - Palabras Clave:
-      - aqua (#0000ff)
+      - aqua (#00FFFF)
       - black (#000000)
       - blue (#0000ff)
       - fuchsia (#ff00ff)
@@ -139,6 +139,7 @@
       - teal (#008080)
       - white (#ffffff)
       - yellow (#ffff00)
+      - [Más](http://www.w3schools.com/colors/colors_names.asp)
 - RGB Decimal:
       - R (rojo), G (Verde), B (Azul)
       - rgb(176, 9, 123)
