@@ -1,0 +1,137 @@
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+
+
+.aqua {
+
+	font: georgia black;
+	background-color: aqua;
+}
+
+.black {
+	font: georgia white;
+	background-color: black;
+}
+
+.blue {
+	font: georgia white;
+	background-color: blue;
+}
+
+.fuchsia {
+	font: georgia black;
+	background-color: fuchsia;
+}
+
+.gray {
+	font: georgia black;
+	background-color: gray;
+}
+
+.green {
+	font: georgia white;
+	background-color: green;
+}
+
+.lime {
+	font: georgia black; 
+	background-color: lime;
+}
+
+.maroon {
+	font: georgia white;
+	background-color: maroon;
+}
+
+.navy {
+	font: georgia white;
+	background-color: navy;
+}
+
+.olive {
+	font: georgia white;
+	background-color: olive;
+}
+
+.orange {
+	font: georgia white;
+	background-color: orange;
+}
+
+.purple {
+	font: georgia white;
+	background-color: purple;
+}
+
+.red {
+	font: georgia white;
+	background-color: red;
+}
+
+.silver {
+	font: georgia black;
+	background-color: silver;
+}
+
+.teal {
+	font: georgia white;
+	background-color: teal;
+}
+
+.white {
+	font: georgia black;
+	background-color: white;
+}
+
+.yellow {
+	font: georgia black;
+	background-color: yellow;
+}
+
+.uno {
+	font: 'Fjalla One', sans-serif;
+	background-color: #556270;
+}
+
+.dos {
+	font: 'Fjalla One', sans-serif;
+	background-color: #FCFBE3;
+}
+.tres {
+	font: 'Fjalla One', sans-serif;
+	background-color: #FF9999;
+}
+
+.cuatro {
+	font: 'Fjalla One', sans-serif;
+	background-color: #2A8FBD;
+}
+
+.cinco {
+	font: 'Fjalla One', sans-serif;
+	background-color: #420943;
+}
+
+.seis {
+	font: 'Fjalla One', sans-serif;
+	background-color: #61D2D6;
+}
+
+.siete {
+	font: 'Fjalla One', sans-serif;
+	background-color: #FF6666;
+}
+
+.ocho {
+	font: 'Fjalla One', sans-serif;
+	background-color: #F0F0F0;
+}
+
+.nueve {
+	font: 'Fjalla One', sans-serif;
+	background-color: #F9CDAD;
+}
+
+.diez {
+	font: 'Fjalla One', sans-serif;
+	background-color: #D2E4FC;
+}
