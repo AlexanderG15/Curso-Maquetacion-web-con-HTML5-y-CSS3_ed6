@@ -554,10 +554,4 @@ Para los colores reservados usa una fuente del sistema, para los otros elige una
   <!-- Tu solución -->
 ```
 
-**3 -** Con que hemos aprendido hoy sobre CSS3 mejora el diseño del ejercicio de GenBeta:Dev
-
-```html
-  <!-- Tu solución -->
-```
-
 
