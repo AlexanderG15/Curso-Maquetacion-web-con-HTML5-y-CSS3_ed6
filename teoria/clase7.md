@@ -120,7 +120,8 @@
             - em y % para los textos
 
 **Colores**
-- [Herramientas](http://www.colorzilla.com/)
+- [Colozilla](http://www.colorzilla.com/)
+- [Rueda Cromática de Adobe](https://color.adobe.com/)
 - Palabras Clave:
       - aqua (#00FFFF)
       - black (#000000)
