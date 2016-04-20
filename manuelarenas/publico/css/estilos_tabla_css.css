@@ -1,0 +1,48 @@
+
+/*fonts*/
+@import url(https://fonts.googleapis.com/css?family=Passion+One);
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url(https://fonts.googleapis.com/css?family=Freckle+Face);
+@import url(https://fonts.googleapis.com/css?family=Chewy);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:700italic);
+@import url(https://fonts.googleapis.com/css?family=Norican);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Lora);
+@import url(https://fonts.googleapis.com/css?family=Arimo:400,700);
+@import url(https://fonts.googleapis.com/css?family=Bangers);
+@import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script:400,700);
+@import url(https://fonts.googleapis.com/css?family=Abril+Fatface);
+
+
+/*tabla*/
+table{text-align:center;font-family: 'Montserrat', sans-serif; }
+td{padding:15px;font-size:18px}
+
+
+/*colores*/
+.aqua{background-color:#00FFFF;font-family: 'Passion One', cursive;}
+.black{background-color:#000000;color:#fff;font-family:"Trebuchet MS", Arial, Helvetica, sans-serif}
+.blue{background-color:#0000ff;font-family: 'PT Sans', sans-serif;}
+.fuchsia{background-color:#ff00ff;font-family: 'Chewy', cursive;}
+.gray{background-color:#808080;font-family: 'Pacifico', cursive;}
+.green{background-color:#008000;font-family: 'Norican', cursive;}
+.lime{background-color:#00ff00;font-family: 'Roboto Slab', serif;}
+.maroon{background-color:#800000;color:#fff; font-family:Georgia, "Times New Roman", Times, serif}
+.navy{background-color:#000080;font-family: 'Arimo', sans-serif; font-weight:700; color:#fff}
+.olive{background-color:#808000;font-family: 'Freckle Face', cursive; }
+.orange{background-color:#ffA500; font-family:"Courier New", Courier, monospace}
+.purple{background-color:#800080;font-family: 'Dancing Script', cursive; font-weight:bold}
+.red{background-color:#ff0000;font-family:"Arial Black", Gadget, sans-serif}
+.silver{background-color:#c0c0c0; font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif}
+.teal{background-color:#008080; font-family:Verdana, Geneva, sans-serif}
+.white{background-color:#ffffff;font-family: 'Bangers', cursive;}
+.lightSkyBlue{background-color:#87CEFA;font-family: 'Kaushan Script', cursive;}
+.lightGreen{background-color:#90EE90;font-family:"Courier New", Courier, monospace}
+.lightPink{background-color:#FFB6C1;font-family: 'Montserrat', sans-serif; }
+.lightSeaGreen{background-color:#20B2AA;font-family: 'Abril Fatface', cursive;}
+.thistle{background-color:#D8BFD8; font-family:"Times New Roman", Times, serif}
+.tomato{background-color:#FF6347; font-family:monospace}
+.turquoise{background-color:#40E0D0; font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif}
+.violet{background-color:#EE82EE; font-family:"Lucida Console", Monaco, monospace}
