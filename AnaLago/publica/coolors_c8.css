@@ -1,0 +1,45 @@
+@import url(https://fonts.googleapis.com/css?family=Patua+One)
+p {
+	text-align: right;
+}
+.parrafo1 {
+	font-family: "Patua One";
+	background-color: rgb(127, 7, 0);
+	font-weight: bolder;
+}
+
+.parrafo2 {
+	font-family: "Patua One";
+	background-color: rgb(255, 86, 76);
+	font-weight: bolder;
+}
+
+.parrafo3 {
+	font-family: "Patua One";
+	background-color: rgb(255, 14, 0);
+	font-weight: bolder;
+}
+
+.parrafo4 {
+	font-family: "Patua One";
+	background-color: rgb(127, 43, 38);
+	font-weight: bolder;
+}
+
+.parrafo5 {
+	font-family: "Patua One";
+	background-color: rgb(204, 11, 0);
+	font-weight: bolder;
+}
+
+.parrafo6 {
+	font-family: "Patua One";
+	background-color: rgb(66, 4, 0);
+	font-weight: bolder;
+}
+
+.parrafo7 {
+	font-family: "Patua One";
+	background-color: rgb(255, 75, 76);
+	font-weight: bolder;
+}
