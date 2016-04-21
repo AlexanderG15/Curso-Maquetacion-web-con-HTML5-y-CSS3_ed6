@@ -1,0 +1,74 @@
+ p {
+     font-family: Helvetic Sans-Serif;
+     font-style: italic;
+     font-size: 18pt
+   }
+
+.aqua {
+  background-color: aqua;
+  color: black;
+}
+.black {
+  background-color: black;
+  color: white;
+}
+.blue {
+  background-color: blue;
+  color: white;
+}
+
+.fuchsia{
+  background-color: fuchsia;
+  color: white;
+}
+.gray{
+  background-color: gray;
+  color: white;
+}
+.green{
+  background-color: green;
+  color: white;
+}
+.lime{
+  background-color: lime;
+  color: white;
+}
+.maroon{
+  background-color: maroon;
+  color: white;
+}
+.navy{
+  background-color: #0000ff;
+  color: white;
+}
+.olive{
+  background-color: olive;
+  color: white;
+}
+.orange{
+  background-color: orange;
+  color: white;
+}
+.purple{
+  background-color: purple;
+  color: white;
+}
+.red{
+  background-color: red;
+  color: white;
+}
+.silver{
+  background-color: silver;
+  color: white;
+}
+.teal{
+  background-color: teal;
+  color: white;
+}
+.white{
+  background-color: white;
+}
+.yellow{
+  background-color: yellow;
+}
+
