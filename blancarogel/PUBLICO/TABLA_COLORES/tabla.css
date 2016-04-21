@@ -1,0 +1,110 @@
+body #aqua {
+ 	background-color: #00FFFF;
+ 	font-family: Arial, Helvetica, "Courrier New", "Lucida Console";
+}
+
+body #black {
+ 	background-color: #000000;
+ 	font-family: 'Slabo 27px', serif;
+ 	color: #FFFFFF;
+}
+
+body #blue {
+ 	background-color: #0000ff;
+ 	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+body #fuchsia {
+ 	background-color: #ff00ff;
+ 	font-family: 'Open Sans', sans-serif;
+}
+
+body #gray {
+ 	background-color: #808080;
+ 	font-family: 'Arvo', serif;
+}
+
+body #green {
+ 	background-color: #008000;
+ 	font-family: 'Playfair Display', serif;
+}
+
+body #lime {
+ 	background-color: #00ff00;
+ 	font-family: 'Roboto Mono', ;
+}
+
+body #maroon {
+ 	background-color: #800000;
+ 	font-family: 'Arapey', serif;
+ 	color: #FFFFFF;
+}
+
+body #navy {
+ 	background-color: #000080;
+ 	font-family: 'Arvo', serif;
+ 	color: #FFFFFF;
+}
+
+body #olive {
+ 	background-color: #808000;
+ 	font-family: 'Playfair Display', serif;
+}
+
+
+
+
+
+
+
+body #lila {
+ 	background-color: #E2A9F3;
+ 	font-family: Arial, Helvetica, "Courrier New", "Lucida Console";
+}
+
+body #naranja {
+ 	background-color: #F79F81;
+ 	font-family: 'Slabo 27px', serif;
+ 
+}
+
+body #verde {
+ 	background-color: #E1F5A9;
+ 	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+body #azulito {
+ 	background-color: #A9D0F5;
+ 	font-family: 'Open Sans', sans-serif;
+}
+
+body #amarillo {
+ 	background-color: #F2F5A9;
+ 	font-family: 'Arvo', serif;
+}
+
+body #coral {
+ 	background-color: #F5A9A9;
+ 	font-family: 'Playfair Display', serif;
+}
+
+body #turquesa {
+ 	background-color: #81F7D8;
+ 	font-family: 'Roboto Mono', ;
+}
+
+body #perla {
+ 	background-color: #D8D8D8;
+ 	font-family: 'Arapey', serif;
+}
+
+body #rosa {
+ 	background-color: #F6CED8;
+ 	font-family: 'Arvo', serif;
+ 	color: #FFFFFF;
+}
+
+body #mostaza {
+ 	background-color: #F5DA81;
+ 	font-family: 'Playfair Display', serif;
+}
