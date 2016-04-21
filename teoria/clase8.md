@@ -4,9 +4,7 @@
 
 **1 -** Basandote en el ejercicio anterior sustituye la tabla por un conjuntos de *párrafos* que contenga todos los colores.
 
-```html
-  <!-- Tu solución -->
-```
+- **[Solución](http://codepen.io/ulisesgascon/pen/bpKaMo)**
 
 
 ### Librerías de fuentes
