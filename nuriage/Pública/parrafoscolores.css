@@ -1,0 +1,162 @@
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+
+p {
+  width: 150px;
+  height: 22px;
+  border: 1px solid black;
+  margin: 0px;
+  text-align: center;
+}
+
+
+.aqua {
+	font-family: georgia;
+	color: black;
+	background-color: aqua;
+}
+
+.black {
+	font-family: georgia;
+	color: white;
+	background-color: black;
+}
+
+.blue {
+	font-family: georgia;
+	color: white;
+	background-color: blue;
+}
+
+.fuchsia {
+	font-family: georgia;
+	color: black;
+	background-color: fuchsia;
+}
+
+.gray {
+	font-family: georgia;
+	color: black;
+	background-color: gray;
+}
+
+.green {
+	font-family: georgia;
+	color: white;
+	background-color: green;
+}
+
+.lime {
+	font-family: georgia;
+	color: black; 
+	background-color: lime;
+}
+
+.maroon {
+	font-family: georgia;
+	color: white;
+	background-color: maroon;
+}
+
+.navy {
+	font-family: georgia;
+	color: white;
+	background-color: navy;
+}
+
+.olive {
+	font-family: georgia;
+	color: white;
+	background-color: olive;
+}
+
+.orange {
+	font-family: georgia;
+	color: white;
+	background-color: orange;
+}
+
+.purple {
+	font-family: georgia;
+	color: white;
+	background-color: purple;
+}
+
+.red {
+	font-family: georgia;
+	color: white;
+	background-color: red;
+}
+
+.silver {
+	font-family: georgia;
+	color: black;
+	background-color: silver;
+}
+
+.teal {
+	font-family: georgia;
+	color: white;
+	background-color: teal;
+}
+
+.white {
+	font-family: georgia;
+	color: black;
+	background-color: white;
+}
+
+.yellow {
+	font-family: georgia;
+	color: black;
+	background-color: yellow;
+}
+
+.uno {
+	font-family: 'Fjalla One', sans-serif;
+	background-color: #556270;
+}
+
+.dos {
+	font-family: 'Fjalla One', sans-serif;
+	background-color: #FCFBE3;
+}
+.tres {
+	font-family: 'Fjalla One', sans-serif;
+	background-color: #FF9999;
+}
+
+.cuatro {
+	font-family: 'Fjalla One', sans-serif;
+	background-color: #2A8FBD;
+}
+
+.cinco {
+	font-family: 'Fjalla One', sans-serif;
+	color: white;
+	background-color: #420943;
+}
+
+.seis {
+	font-family: 'Fjalla One', sans-serif;
+	background-color: #61D2D6;
+}
+
+.siete {
+	font-family: 'Fjalla One', sans-serif;
+	background-color: #FF6666;
+}
+
+.ocho {
+	font-family: 'Fjalla One', sans-serif;
+	background-color: #F0F0F0;
+}
+
+.nueve {
+	font-family: 'Fjalla One', sans-serif;
+	background-color: #F9CDAD;
+}
+
+.diez {
+	font-family: 'Fjalla One', sans-serif;
+	background-color: #D2E4FC;
+}
