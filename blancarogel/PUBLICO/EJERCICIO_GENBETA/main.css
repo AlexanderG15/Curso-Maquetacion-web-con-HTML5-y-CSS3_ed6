@@ -1,0 +1,79 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Raleway+Dots);
+
+
+h1 {
+     font-family: 'Raleway Dots';
+     color:navy;
+     font-weight: 900px;
+     font-size: 45px;
+    }
+
+
+body {
+	font-family: Raleway, sans serif;
+	color: gray;
+	width: 700px;
+	font-size: 13px;
+	background-image: url("http://www.emilevanderhilst.nl/wp-content/uploads/2015/11/gradient_background.jpg");
+	background-repeat:no-repeat;
+	background-position:center-top;
+	background-attachment:fixed;
+}
+
+p {
+	font-size: 13px;
+	font-weight: 300px;
+}
+
+h2, h3 {
+     font-family: 'Raleway Dots';
+     color:white;
+     font-weight: 800px;
+     font-size: 30px;
+     background-color:  #009999;
+    }
+
+time {
+	color:red;
+	font-size: 10px;
+}
+
+
+div {
+    cursor:pointer;
+}
+
+
+a:link {
+	text-decoration: none;
+	color:gray;
+	font-weight: 800;
+}
+
+a:visited {
+	text-decoration: none;
+	font-weight: 800px;
+}
+
+a:hover {
+	background-color: #99ffff;
+}
+
+a:active {
+	background-color: #99ffff;
+}
+
+time {
+
+}
+
+#secreto {
+	color:red;
+}
+
+
+
+
+
+
