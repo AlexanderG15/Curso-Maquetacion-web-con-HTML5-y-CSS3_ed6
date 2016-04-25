@@ -1,0 +1,15 @@
+
+
+/*font*/
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+/*general*/
+body{font-family: 'Montserrat', sans-serif;}
+li{list-style-type:none;font-size:16px}
+a{text-decoration:none;cursor:pointer}
+nav ul li a{color:#111}
+
+/*body*/
+/*portfolio*/
+ul#work li{color:#404040;font-size:14px}
+ul#work li span{font-size:11px;color:#999999}
