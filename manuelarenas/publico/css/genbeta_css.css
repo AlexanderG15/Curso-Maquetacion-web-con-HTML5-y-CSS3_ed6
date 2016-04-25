@@ -1,0 +1,12 @@
+
+body{font-family: Source Sans Pro, Open Sans, Helvetica}
+a{text-decoration:none;color:#cf4da5}
+h3{font-family:Helvetica, Arial, sans-serif; font-weight:700;font-size:28px;color:#444}
+h3:hover{color:#ff009A;cursor:pointer}
+.button a{font-size:13px;font-weight:400;vertical-align:middle;height:24px;line-height:25px;border-radius:2px;background-color:#cf4da5;color: #fff;text-transform:uppercase;padding:5px 8px}
+.button a:hover{background-color:#ff009a;}
+.author{color:#888; font-size:13px}
+.author a{color:#cf4da5;text-transform:uppercase}
+.author a:hover{color:#ff009a}
+.more{font-weight:bold;color:#cf4da5}
+.article{font-size:19px;color:#444}
