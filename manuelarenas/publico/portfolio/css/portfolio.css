@@ -1,15 +1,21 @@
 
 
-/*font*/
+/*fuentes*/
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 
 /*general*/
-body{font-family: 'Montserrat', sans-serif;}
-li{list-style-type:none;font-size:16px}
+body{font-family: 'Montserrat', sans-serif;background-color:#f7f9fb;color:#463f3f;font-size:12px}
+li{list-style-type:none}
+fieldset{border:none}
 a{text-decoration:none;cursor:pointer}
-nav ul li a{color:#111}
+a:hover{color:#999}
+label{font-size:14px}
+/*menu*/
+nav ul li a{color:#111;font-size:16px}
 
 /*body*/
 /*portfolio*/
-ul#work li{color:#404040;font-size:14px}
-ul#work li span{font-size:11px;color:#999999}
+ul#work li{font-size:14px; color:#111}
+ul#work li span{font-size:11px;color:#999}
+/*sobre mi*/
+/*contacto*/

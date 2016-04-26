@@ -1,6 +1,21 @@
-*{
 
-	color:#646464;
-}
-ul{position:absolute;top:20px;right:0;}
-li{float:right; list-style-type:none}
+
+/*fuentes*/
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+
+/*general*/
+body{font-family: 'Montserrat', sans-serif;background-image:url(../img/bg.jpg);font-size:12px}
+main{background-color:#fff6d2}
+li{list-style-type:none}
+fieldset{border:none}
+a{text-decoration:none;cursor:pointer}
+a:hover{}
+label{font-size:14px}
+h1, h2, h3{font-family: 'Fjalla One', sans-serif}
+
+
+/*body*/
+nav ul li a{color:#111;font-size:22px;font-family: 'Fjalla One', sans-serif}
+article{padding:20px}
+article h3{ font-size:26px}
