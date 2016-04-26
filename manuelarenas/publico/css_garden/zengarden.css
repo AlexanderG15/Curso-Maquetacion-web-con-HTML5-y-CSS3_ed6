@@ -1,0 +1,13 @@
+
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+body{background-color:#434854;font-family:"tablet-gothic", verdana, arial, sans-serif; font-size: 20px}
+a{text-decoration:none; border-bottom: gray; color:#333;}
+section{ background-color: #daede2;padding: 20px}
+header{background-color: #77c4d3;padding: 30px;width: 500px;}
+h1, h2{margin:0; color:#fff;}
+h1{font-family: 'Lobster', cursive; font-size: 70px}
+h2{font-family: 'Lobster', cursive; font-size: 20px}
+.summary{padding: 30px;}
+.preamble{ background-color: #fff}
+.preamble h2{font-family:"tablet-gothic-condensed", "arial narrow", arial, verdana, sans-serif;}
