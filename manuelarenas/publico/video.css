@@ -1,0 +1,9 @@
+
+body{background-color:#000; font-family: verdana}
+iframe{width:100%;height:100%;z-index:1; position:absolute}
+nav{z-index:2;position:absolute; top:0; left:0;}
+ul{ list-style-type: none}
+li{padding:20px; background-color: purple; margin: 5px 0; width:200px;}
+li a{ text-decoration: none; color: white}
+li:hover{ background-color: white; cursor: pointer; width:230px;transition:0.5s}
+li:hover a{color: purple}
