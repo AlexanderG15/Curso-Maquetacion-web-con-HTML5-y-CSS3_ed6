@@ -171,9 +171,8 @@ Asiocian estilos a partes concretas de un elemento
 ### Ejercicios
 
 **2 -** Con que hemos aprendido hoy sobre CSS3 mejora el diseño del ejercicio de GenBeta:Dev
-```html
-  <!-- Tu solución -->
-```
+
+- [Solución](http://codepen.io/ulisesgascon/pen/eZjOLN)
 
 **3 -** Actualiza el proyecto del restaurante incorporando reglas de estilo usando selectores avanzados.
 ```html
