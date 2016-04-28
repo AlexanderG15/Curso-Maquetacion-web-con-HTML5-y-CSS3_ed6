@@ -1,0 +1,74 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url(https://fonts.googleapis.com/css?family=Abel);
+
+body {
+	font-family:Abel,verdana, sans-serif;
+	color:#3C3C3C;
+	font-size:1.2em;
+	}
+.summary {
+	font:Abel,verdana, sans-serif;
+	color:navy;
+	}
+.page-wrapper {
+    margin-left: 400px;
+	margin-top: 20px;
+  }
+  
+li {
+	list-style-type:none;
+	font-size: 0.75em;
+	}
+	
+.preamble {
+	color:white;
+	background-color:#00867F;
+	padding:50px;
+	}
+	
+.explanation {
+	color:white;
+	background-color:#13A9BA;
+	padding:80px;
+	}
+	
+.participation {
+	color:white;
+	background-color:#A60C4D;
+	padding:80px;
+	}	
+	
+.benefits {
+	color:white;
+	background-color:#D2A300;
+	padding:80px;
+	}
+	
+.requirements {
+	color:white;
+	background-color:#1488A0;
+	padding:80px;
+	}	
+	
+.summary {
+	color:white;
+	background-color:#A72970;
+	padding:100px;
+	}
+	
+.tabla_menu {
+	float: left;
+    margin: 100px 0 0 60px;
+	width:20%;
+	}
+	
+.tabla_menu li img{
+	width:45%;
+	}
+
+a {
+	text-decoration:underline;
+	color:#FFFFFF;
+	}
