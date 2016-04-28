@@ -147,9 +147,8 @@ Determian si se veran elementos flotantes adyacentes.
 ### Ejercicios
 
 **1 -** Crea un menu que permita cambiar dinámicamente el video de fondo.
-```html
-  <!-- Tu solución -->
-```
+
+- [Solución](http://codepen.io/ulisesgascon/pen/KzGWEq)
 
 **2 -** Con que hemos aprendido esta semana sobre CSS3 mejora el diseño del ejercicio de GenBeta:Dev incluyendo sobras, margenes y un fondo solido o imágen. Y además integra todo el contenido en una estructura a dos columnas.
 ```html
