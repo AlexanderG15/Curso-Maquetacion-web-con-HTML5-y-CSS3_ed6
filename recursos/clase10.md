@@ -17,3 +17,7 @@
 - [display en MDN](https://developer.mozilla.org/es/docs/Web/CSS/display)
 - [visibility en MDN](https://developer.mozilla.org/es/docs/Web/CSS/visibility)
 - [opacity en MDN](https://developer.mozilla.org/es/docs/Web/CSS/opacity)
+
+### Apoyo
+
+- [VIDEO - CSS Float and Clear Explained - How does CSS float and clear work?](https://www.youtube.com/watch?v=xara4Z1b18I)

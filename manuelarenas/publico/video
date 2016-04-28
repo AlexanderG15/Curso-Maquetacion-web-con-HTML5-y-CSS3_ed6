@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link type="text/css" rel="stylesheet" href="video.css">
+</head>
+<body>
+<iframe name="video1" width="560" height="315" src="https://www.youtube.com/embed/dLYafk0Lui0" frameborder="0" allowfullscreen></iframe>
+
+<nav>
+<ul>
+	<li><a href="https://www.youtube.com/embed/dLYafk0Lui0" target="video1">Ziggy Stardust</a></li>
+	<li><a href="https://www.youtube.com/embed/ydLcs4VrjZQ" target="video1">Young Americans</a></li>
+	<li><a href="https://www.youtube.com/embed/CMThz7eQ6K0" target="video1">Ashes To Ashes</a></li>
+	<li><a href="https://www.youtube.com/embed/VbpMpRq6DV4" target="video1">Wild Is The Wind</a></li>
+</ul>
+</nav>	
+
+</body>
+</html>
