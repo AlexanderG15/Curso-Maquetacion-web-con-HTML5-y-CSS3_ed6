@@ -1,0 +1,271 @@
+@import url(https://fonts.googleapis.com/css?family=Lora);
+@import url(https://fonts.googleapis.com/css?family=Handlee);
+
+/*general página*/
+body {
+
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    font: 13px 'Lora', serif;
+	color: #7b8d97; 
+	background: #8dadc2;
+}
+
+p {
+    font-size:11px;
+    font-weight:normal;
+    line-height:1.4em;
+    text-align: justify;
+}
+
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #B7A5DF;
+	}
+
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #D4CDDC;
+	}
+
+a:hover, a:focus, a:active { 
+	text-decoration: none; 
+	color: #9685BA; 
+	}
+
+abbr {
+	border-bottom: none;
+	}
+
+h1 {
+	font-family: 'Handlee', cursive;
+	font-size: 32px;
+	text-transform: uppercase;
+	display: block;
+	padding-top: 173px;
+    padding-left: 234px;
+    position: relative;
+}
+
+h2 {
+	display: none;
+    font-size: 1.5em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+    padding-left: 310px;
+}
+
+/*apartados página*/
+.page-wrapper {
+    width:630px;
+    margin: auto;
+    padding: 0 0 100px 0;
+    background: #ece5df;
+    position: relative;
+}
+
+header {
+    background: transparent url(zenwave.jpg) no-repeat center top;
+    width: 630px;
+    height: 387px;
+    border-radius: 100%;
+}
+
+.intro {
+    width:400px;
+    margin:0 0 0 0;
+}
+
+.summary {
+    border: 0px solid #000000;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: normal;
+    color: #999999;
+    text-align: justify;
+    margin: 0 0 0 60px;
+}
+
+.supporting {
+    width:350px;
+    margin:0 0 0 0;
+}
+
+.preamble, .explanation, .participation, .benefits, .requirements {
+    position: relative;
+    width: 350px;
+    margin:0 0 0 60px;
+}
+
+.requirements {
+    margin-bottom:35px;
+}
+
+.preamble h3 {
+    width: 286px;
+    height: 64px;
+    margin-bottom: -5px;
+    font-family: 'Handlee', cursive;
+    font-size: 19px;
+}
+
+.explanation h3 {
+    width: 286px;
+    height: 66px;
+    margin-bottom: -5px;
+    font-family: 'Handlee', cursive;
+    font-size: 19px;
+}
+
+.participation h3 {
+    width: 286px;
+    height: 66px;
+    margin-bottom: -5px;
+    font-family: 'Handlee', cursive;
+    font-size: 19px;
+}
+
+.benefits h3 {
+    width: 286px;
+    height: 66px;
+    margin-bottom: -5px;
+    font-family: 'Handlee', cursive;
+    font-size: 19px;
+}
+
+.requirements h3 {
+    width: 286px;
+    height: 66px;
+    margin-bottom: -5px;
+    font-family: 'Handlee', cursive;
+    font-size: 19px;
+}
+
+
+.sidebar {
+    position: absolute;
+    left: 160px; 
+    right: auto; 
+    top: 400px;
+    padding: 0 0 0 0;
+    margin-left: 270px;
+    width: 180px;
+    height: 810px;
+}
+
+.sidebar ul {
+	text-align: left;
+	list-style: none;
+	margin: 0 0 0 0;
+	padding:0 0 15px 35px;
+	font-size:10px;
+	width: 120px;
+	}
+
+.sidebar ul li{
+	margin: 0;
+	padding: 3px 0 3px 0;
+	
+}
+
+.sidebar ul li a, .sidebar ul li a:visited {
+	border-bottom: none;
+	outline:0;
+}
+
+.sidebar ul li a:hover {
+	color: #999999;
+	text-decoration: none;
+}
+
+.design-selection {
+	font-size: 0.9em;
+}
+
+.design-selection ul li {
+	padding: 3px 0 3px 20px;
+	background: transparent url(bullet.jpg) no-repeat 2% 25%;
+	color:#999999;
+}
+
+.design-selection a {
+	display: block;
+	font-size: 1.1em;
+	color: #09738A;
+}
+
+.design-selection a.designer-name {
+	display:inline;
+	line-height:5px;
+	margin:0;
+	padding:0;
+	font: normal 1.0em/0.9em Geneva, Arial, Tahoma, sans-serif;
+	color: #999999;
+	letter-spacing: -1px;
+}
+
+.design-selection, .design-archives {
+	margin-bottom: 5px;
+	border:0px solid #000000;
+}
+
+.design-archives ul li a, .zen-resources ul li a {
+    color: #09738A;
+}
+
+.design-selection h3, .design-archives h3, .zen-resources h3 {
+	width: 196px;
+	height: 40px;
+	margin-bottom:-15px;
+	padding:10px 0 0 35px;
+	font-family: 'Handlee', cursive;
+	font-size: 14px;
+	font-weight:normal;
+	text-transform: uppercase;
+	color: #092B5A;
+    
+}
+
+footer{
+	text-align: center;
+	padding:0 0 0 0;
+	margin: 0 0 0 60px;
+}
+
+footer a, footer a:visited {
+	padding: 5px;
+	border: 1px solid #eeeeee;
+	background-color: #fff;
+	color: #666666;
+	font-family: 'Handlee', cursive;
+	font-size: 12px;
+}
+
+footer a:hover {
+	padding: 5px;
+	border: 1px solid #eeeeee;
+	background-color: #9ED1B7;
+	color: #999999;
+	font-family: 'Handlee', cursive;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.extra1, .extra2, .extra3, .extra4, .extra5, .extra6{
+    display: none;
+}
+
+
+#full-circle {
+	width:25px;
+	height: 25px;
+	border-radius: 100%;		
+	background-color: #8dadc2;
+	display: block;
+	}
+
