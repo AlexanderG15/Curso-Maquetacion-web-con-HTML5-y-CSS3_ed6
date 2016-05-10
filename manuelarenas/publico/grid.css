@@ -10,7 +10,7 @@ body{ font-family: 'Montserrat', sans-serif;}
 
 
 /* desktop */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px){
 	.col.desktop{width:8.3%; display: block}
 	.table, .mobile{display:none;}
 
@@ -24,7 +24,6 @@ body{ font-family: 'Montserrat', sans-serif;}
 /* mobile */
 @media screen and (min-width: 320px) {
 	.col.mobile{width:33.3%; display: block}
-
 	.desktop, .table{display:none;}
 	
 }
