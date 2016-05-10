@@ -1,0 +1,13 @@
+body{ font-size: 20px}
+h1{ visibility: hidden; margin: 0}
+h2{ font-size: 20px; padding: 0 0 0 20px}
+ul{ list-style-type: none; margin: 0; padding: 0}
+#main_box{margin:0 auto; width: 1300px}
+header{color:#333333;background-color: #94c6eb; background-image:url(logo_head.jpg); background-repeat: no-repeat; background-position: 10px 0;}
+nav ul{ background-color: #333333; color:#FFF;padding: 15px 0 15px 80px}
+nav ul li{ display: inline; font-size: 20px; margin: 0 80px 0 0}
+section{border:1px solid #000; float:left;padding:0 20px;}
+main{float:left; width:60%;}
+#menu{float:right; text-align: center; width: 30%}
+#menu ul li{border:1px solid #000; padding: 10px}
+footer{ clear: both; background-color: #000; padding: 20px; text-align: center; color:#fff;}
