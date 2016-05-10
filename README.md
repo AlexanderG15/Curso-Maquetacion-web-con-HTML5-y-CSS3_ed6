@@ -36,7 +36,7 @@ Teoría | Recursos
 [Clase 9](teoria/clase9.md) | [Clase 9](recursos/clase9.md)
 [Clase 10](teoria/clase10.md) | [Clase 10](recursos/clase10.md)
 [Clase 11](teoria/clase11.md) | [Clase 11](recursos/clase11.md)
-Clase 12 | Clase 12
+[Clase 12](teoria/clase12.md) | [Clase 12](recursos/clase12.md)
 Clase 13 | Clase 13
 Clase 14 | Clase 14
 Clase 15 | Clase 15
@@ -82,7 +82,9 @@ Temario
 * Modernizr
 
 **Compatibilidad entre navegadores**
+
 **Optimización del rendimiento del sitio web**
+
 **Técnicas SEO**
 
 **Desarrollo de interactividad con jQuery**
