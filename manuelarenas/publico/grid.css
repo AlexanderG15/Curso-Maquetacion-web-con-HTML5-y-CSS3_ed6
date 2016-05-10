@@ -1,0 +1,30 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+body{ font-family: 'Montserrat', sans-serif;}
+.row, .col{float:left; text-align: center}
+.row{width:100%;}
+.col{padding:10px 0;color:#fff; font-size:18px; margin:1px 0 1px 0;}
+.yellow{ background-color: #ffba00}
+.magenta{ background-color: #b80083}
+.cyan{ background-color: #009cb8}
+
+
+/* desktop */
+@media screen and (min-width: 1200px) {
+	.col.desktop{width:8.3%; display: block}
+	.table, .mobile{display:none;}
+
+}
+/* table */
+@media screen and (min-width: 768px) {
+	.col.table{width:16.6%; display: block}
+	.desktop, .mobile{display:none;}
+	
+}
+/* mobile */
+@media screen and (min-width: 320px) {
+	.col.mobile{width:33.3%; display: block}
+
+	.desktop, .table{display:none;}
+	
+}
