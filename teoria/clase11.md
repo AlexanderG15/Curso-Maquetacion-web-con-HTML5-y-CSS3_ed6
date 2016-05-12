@@ -86,6 +86,9 @@
 ### Ejercicios
 
 **1 -** Con que hemos aprendido sobre CSS3 mejora el diseño del ejercicio de GenBeta:Dev incluyendo sobras, margenes y un fondo solido o imágen. Y además integra todo el contenido en una estructura a dos columnas.
-```html
-  <!-- Tu solución -->
-```
+
+- [Solución](http://codepen.io/ulisesgascon/pen/5d11ed676cc18e24123b67df84d2343f)
+
+**Extra -** Maquetar la portada de [este libro](https://github.com/Fictizia/Curso-Maquetacion-web-con-HTML5-y-CSS3_ed6/issues/8)
+
+
