@@ -80,7 +80,7 @@ article {
 
 ### Ejercicios
 
-Desarrolla una clase general para poder incluir un ribbon en tu diseño, y algunas clases secundarias para poder determianr el color (rojo, verde, azul, amarillo, negro) 
+Desarrolla una clase general para poder incluir un ribbon en tu diseño, y algunas clases secundarias para poder determinar el color (rojo, verde, azul, amarillo, negro) 
 
 - [Base](http://codepen.io/ulisesgascon/pen/02b04db29746a656c5f2ae077008b9b8/)
 
@@ -88,7 +88,7 @@ Desarrolla una clase general para poder incluir un ribbon en tu diseño, y algun
 <!-- Solución -->
 ```
 
-Incluye un menú de hamburguesa es tu proyecto. 
+Incluye un menú de hamburguesa en tu proyecto. 
 
 - [Base](http://codepen.io/ulisesgascon/pen/RamRVd)
 
