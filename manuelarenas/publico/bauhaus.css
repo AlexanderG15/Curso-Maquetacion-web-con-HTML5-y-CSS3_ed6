@@ -17,6 +17,10 @@ footer{position:absolute; top:395px; width:100%;}
 #main_bbb{background-color:#fff;width:700px;height:715px;position:relative;border:1px solid #c4c4c4;margin:0 auto}
 #bbb h1{margin:50px 0;color:#000}
 #bbb footer{clear:both;color:#000;bottom:0}
+#bbb .red{background-color:red}
+#bbb .blue{background-color:blue}
+#bbb .yellow{background-color:#fcb800}
+#bbb .white{background-color:#FFF}
 .lines{background-color:#fcb800;position:absolute}
 .horizontal{height:14px;width:700px;left:0}
 .vertical{height:715px;width:14px;top:0}
@@ -40,8 +44,8 @@ footer{position:absolute; top:395px; width:100%;}
 .hh{top:549px}
 .ih{top:54px}
 .jh{top:640px}
-.max_square{width:100px;position:absolute}
-.max_square.r{background-color:red}
+.max_square{width:60px;position:absolute}
+.max_square.a{top:30px;left:180px;height:64px;position:relative}
 .max_square.b{background-color:blue}
 
 .mini_square{width:14px;height:14px;position:absolute;}
