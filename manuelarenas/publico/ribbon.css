@@ -1,0 +1,62 @@
+
+@import url(https://fonts.googleapis.com/css?family=Satisfy);
+
+#main{margin: 70px auto;
+    position: relative;
+    width: 350px;
+    height: 350px;}
+#box{border:1px solid #c4c4c4; width:350px; height: 350px; border-radius:20px;position:absolute; z-index:1; background-color:#fff;}
+.ribbon{width: 400px;
+    height: 45px;
+    text-align: center;
+    background: linear-gradient(to bottom, #a4de18 0%,#7baa05 100%);
+    position: absolute;
+    font-family: 'Satisfy', cursive;
+    left: -36px;
+    padding: 10px;
+    font-size: 35px;
+    text-shadow: 1px 1px 0px #d0f151;
+    top: 30px;
+    border-top: 1px solid #d0f151;
+    border-bottom: 1px solid #6B9404;z-index:2;
+}
+.left{width: 50px;
+    height: 40px;
+    z-index: 0;
+    top: 10px;
+    left: -80px;}
+.right{width: 50px;
+    height: 40px;
+    z-index: 0;
+    left: 358px;
+    top: 10px;}
+ .inner_left{background: linear-gradient(to bottom, #a4de18 0%,#7baa05 100%);
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    left: -31px;
+    top: 10px;
+    transform: skew(-25deg,0deg);
+    border: 1px solid #d0f151;}
+   .inner_right{    background: linear-gradient(to bottom, #a4de18 0%,#7baa05 100%);
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    left: 327px;
+    top: 10px;
+    transform: skew(25deg, 0deg);
+    border: 1px solid #d0f151;}
+  .triangle_left{    background-color: #fff;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: -1px;
+    left: -46px;
+    transform: rotate(74deg) skew(30deg,-30deg);}
+  .triangle_right{background-color: #fff;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: -1px;
+    left: 58px;
+    transform: rotate(74deg) skew(30deg,-30deg);}
