@@ -87,11 +87,3 @@ Desarrolla una clase general para poder incluir un ribbon en tu diseño, y algun
 ```html
 <!-- Solución -->
 ```
-
-Incluye un menú de hamburguesa es tu proyecto. 
-
-- [Base](http://codepen.io/ulisesgascon/pen/RamRVd)
-
-```html
-<!-- Solución -->
-```
