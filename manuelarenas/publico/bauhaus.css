@@ -14,7 +14,7 @@ h1, h2{margin:0;}
 footer{position:absolute; top:395px; width:100%;}
 
 /*mondrian - broadway boogie woogie */
-#main_bbb{background-color:#fff;width:700px;height:715px;position:relative;border:1px solid #c4c4c4;margin:0 auto}
+#main_bbb{background-color:#f1f1f1;width:700px;height:715px;position:relative;margin:0 auto;overflow:hidden;}
 #bbb h1{margin:50px 0;color:#000}
 #bbb footer{clear:both;color:#000;bottom:0}
 #bbb .red{background-color:red}
@@ -24,14 +24,14 @@ footer{position:absolute; top:395px; width:100%;}
 .lines{background-color:#fcb800;position:absolute}
 .horizontal{height:14px;width:700px;left:0}
 .vertical{height:715px;width:14px;top:0}
-.av{left:17px;height:315px}
+.av{left:17px;height:315px;overflow:hidden;}
 .bv{left:40px}
 .cv{left:78px}
 .dv{left:156px}
 .ev{left:380px}
-.fv{left:410px;height:315px}
+.fv{left:410px;height:315px;overflow:hidden;}
 .gv{left:595px}
-.hv{left:622px;height:315px}
+.hv{left:622px;height:315px;overflow:hidden;}
 .iv{left:651px}
 .jv{left:678px}
 .ah{top:17px}
@@ -40,33 +40,76 @@ footer{position:absolute; top:395px; width:100%;}
 .dh{top:307px}
 .eh{top:400px}
 .fh{top:443px}
-.gh{top:487px;width:54px}
+.gh{top:487px;width:54px;overflow:hidden;}
 .hh{top:549px}
 .ih{top:54px}
 .jh{top:640px}
-.max_square{width:60px;position:absolute}
-.max_square.a{top:30px;left:180px;height:64px;position:relative}
-.max_square.b{background-color:blue}
+.max_square{width:60px}
+.max_square.a{top:30px;left:180px;height:64px;position:absolute}
+.max_square.a div {position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 30px;
+    height: 30px;
+    animation: interiorvertical 0.5s infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;}
+.max_square.b{background-color: red;
+    position: absolute;
+    width: 30px;
+    height: 80px;
+    top: 31px;
+    left: 110px;}
+	.max_square.b div{    position: absolute;
+    animation: interiorvertical2 0.5s infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    top: 0;
+    left: 0;
+    height: 10px;
+    width: 30px;}
+.max_square.c{    background-color: blue;
+    height: 126px;
+    position: absolute;
+    right: 170px;
+    top: 124px;}
+.max_square.c div{    position: absolute;
+    top: 0;
+    right: 10px;
+    width: 30px;animation: interiorvertical3 3s infinite;animation-timing-function: linear;animation-direction: alternate;}
+.max_square.d{background-color:#fcb800;
+    height: 136px;
+    position: absolute;
+    left: 285px;
+    top: 264px;}
+.max_square.d div{position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height:10px;
+    animation: interiorvertical4 2s infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;}
 
 .mini_square{width:14px;height:14px;position:absolute;}
 .color_red{background-color:red;width:14px;height:14px;}
 .color_blue{background-color:blue;width:14px;height:14px;}
 .color_white{background-color:white;width:14px;height:14px}
-.vertical .color_red{animation: moveredvertical 4s infinite;animation-timing-function: linear}
-.vertical .color_blue{animation: movebluevertical 1s infinite;animation-timing-function: linear}
-.vertical .color_white{animation: movewhitevertical 2s infinite;animation-timing-function: linear}
-.horizontal .color_red{animation: moveredhorizontal 3s infinite;animation-timing-function: linear}
-.horizontal .color_blue{animation: movebluehorizontal 2s infinite;animation-timing-function: linear}
-.horizontal .color_white{animation: movewhitehorizontal 4s infinite;animation-timing-function: linear}
+.vertical .color_red{animation: moveredvertical 3s infinite;animation-timing-function: linear;animation-direction: alternate;}
+.vertical .color_blue{animation: movebluevertical 2s infinite;animation-timing-function:ease-in;animation-direction:alternate;}
+.vertical .color_white{animation: movewhitevertical 3s infinite;animation-timing-function: linear;animation-direction: alternate;}
+.horizontal .color_red{animation: moveredhorizontal 3s infinite;animation-timing-function:ease-in;animation-direction: alternate;}
+.horizontal .color_blue{animation: movebluehorizontal 5s infinite;animation-timing-function: linear;animation-direction: alternate;}
+.horizontal .color_white{animation: movewhitehorizontal 3s infinite;animation-timing-function:ease-in-out;animation-direction: alternate;}
 
 /*animacion vertical*/
 @keyframes movebluevertical{
 from{top:0px;}
-to{top:300px;}
+to{top:715px;}
 }
 @keyframes moveredvertical{
 from{top:0px;}
-to{top:300px;}
+to{top:715px;}
 }
 @keyframes movewhitevertical{
 from{top:0px;}
@@ -85,4 +128,20 @@ to{left:700px;}
 from{left:0px;}
 to{left:700px;}
 }
-
+/*animacion cuadrados interiores*/
+@keyframes interiorvertical{
+from{top:10px;}
+to{top:25px;}
+}
+@keyframes interiorvertical2{
+from{top:10px;}
+to{top:60px;}
+}
+@keyframes interiorvertical3{
+from{height:10px;}
+to{height:80px;}
+}
+@keyframes interiorvertical4{
+from{top:10px;}
+to{top:120px;}
+}
