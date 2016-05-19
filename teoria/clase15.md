@@ -2,7 +2,7 @@
 
 ### Ejercicios
 
-**1 - ** Incluye un menú de hamburguesa en tu proyecto. 
+**1 -** Incluye un menú de hamburguesa en tu proyecto. 
 
 - [Base](http://codepen.io/ulisesgascon/pen/RamRVd)
 
