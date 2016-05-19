@@ -1,0 +1,171 @@
+
+ 
+ @import url(https://fonts.googleapis.com/css?family=Archivo Black);
+ 
+
+.contenedor {
+	background-color: #1a1a1a;
+	position: relative;
+	width:700px;
+	height:900px;
+ }
+ 
+ .titulo {
+	width:700px;
+	height:200px;
+	 }
+
+ .central {
+	width:700px;
+	height:550px;
+	 }
+ footer {
+	 position:relative;
+	 width:700px;
+	 height:120px;
+	 }
+ 
+ p {
+ 	font-family: Archivo Black, sans-serif;
+ 	color:white;
+	text-align:center;
+	padding-bottom:40px;
+	font-size:18px;
+	padding:-10px;
+	line-height:15px;
+ }
+ 
+
+
+h1 {
+	font-family: Archivo Black, sans-serif;
+ 	color:white;
+	font-size:85px;
+	letter-spacing:15px;
+	text-align:center;
+	padding-top:10px;
+	}
+	
+	
+h3 {
+	font-family: Archivo Black, sans-serif;
+ 	color:white;
+	font-size:30px;
+	letter-spacing:20px;
+	text-align:center;
+	margin-top:-50px;
+	}
+
+ 
+.rojo {
+ 	width: 180px;
+ 	height:90px;
+ 	background-color: red;
+	position:absolute;
+	left:15px;
+	top:200px;
+	float:left;
+	z-index:1;
+ }
+ 
+ 
+ .azul {
+ 	width: 330px;
+ 	height:330px;
+ 	background-color: #4d4dff;
+	position:absolute;
+	left:180px;
+	top:240px;
+	z-index:2;
+	animation-name: animacion-azul;
+	animation-duration:3s;
+	
+ }
+ 
+ @keyframes animacion-amarillo {
+	 -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(7deg);
+ 
+ }
+ 
+
+ .amarillo {
+ 	width: 150px;
+ 	height:150px;
+ 	background-color: yellow;
+	z-index:2;
+	position:absolute;
+	left:450px;
+	top:200px;
+	animation-name: animacion-amarillo;
+	animation-duration:1s;
+ }
+ 
+ 
+  @keyframes animacion-amarillo {
+	 0% { right:300px; top:100px;}
+	 50% { right:50px; top:100px;}
+	 0% { right:100px; top:100px;}
+	 }
+ 
+ .rosa {
+ 	width: 100px;
+ 	height:200px;
+ 	background-color: #ff4da6;
+	z-index:2;
+	position:absolute;
+	left:120px;
+	top:540px;
+	animation-name: animacion-rosa;
+	animation-duration:4s;
+ }
+ 
+ @keyframes animacion-rosa {
+	 0% { left:0px; top:0px;}
+	 0% { left:0px; top:100px;}
+	 }
+ 
+ .blanco {
+ 	width: 150px;
+ 	height:60px;
+ 	background-color: white;
+	z-index:2;
+	position:absolute;
+	left:450px;
+	top:540px;
+	animation-name: animacion-blanco;
+	animation-duration:2s;
+ }
+ 
+ 
+  @keyframes animacion-blanco {
+	 0% { left:200px; top:0px;}
+	 0% { left:0px; top:100px;}
+	 }
+ 
+ 
+  .verde {
+ 	width: 80px;
+ 	height:188px;
+ 	background-color: #669900;
+	position:absolute;
+	z-index:3;
+	left:570px;
+	top:580px;
+ }
+ 
+ 
+  .anil {
+ 	width: 80px;
+ 	height:88px;
+ 	background-color: #0052cc;
+	z-index:3;
+	position:absolute;
+	left:600px;
+	top:0px;
+ }
+ 
+ 
+ 
+ 
