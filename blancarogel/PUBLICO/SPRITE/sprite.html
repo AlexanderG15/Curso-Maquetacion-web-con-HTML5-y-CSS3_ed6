@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>EJERCICIO SPRITE </title>
+
+<style>
+
+.fondo {
+	background:url(https://i.ytimg.com/vi/bP3Fqn8wuFc/hqdefault.jpg);	
+}
+
+
+#pepe {
+  width:75px;
+  height:109px;
+  margin:auto;  
+  background:url(pepe.png); 
+  animation:walk 2s steps(14) infinite;
+  z-index: 3;
+}
+
+@keyframes walk {
+  0% { background-position:0 }
+  100% { background-position:1170px }
+}
+
+</style>
+
+</head>
+<body>
+	<div class="fondo">
+
+	<div id="pepe"></div>
+
+	</div>
+
+</body>
+</html>
