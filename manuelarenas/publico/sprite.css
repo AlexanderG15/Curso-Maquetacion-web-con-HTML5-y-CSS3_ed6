@@ -1,0 +1,11 @@
+#sprite{width: 37px;
+    height: 100px;
+    background: url("big_portait.png") no-repeat 0;
+    animation: play 2s steps(14) infinite; margin:100px auto;
+}
+
+
+ @keyframes play {
+ 	from { background-position: 0px; }
+     to { background-position: -500px; }
+}
