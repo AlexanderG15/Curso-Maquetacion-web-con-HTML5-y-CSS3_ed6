@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<link type="text/css" rel="stylesheet" href="earthquake.css">
+<title>Earthquakes</title>
+</head>
+<body>
+<div id="filter">
+	<ul>
+	 <li><button>Significativos</button></li>
+	 <li><button>M4.5+</button></li>
+	 <li><button>M2.5+</button></li>
+	 <li><button>M1.0+</button></li>
+	 <li><button>Todos</button></li>
+	</ul>
+</div>
+<div class="eq">
+ <ul>
+  <li><strong>Título: </strong>M 0.6 - 7km NW of The Geysers, California<li>
+  <li><strong>Hora: </strong><time class="timeago" datetime="2016-05-17T09:24:17Z">17/5/2016 15:25:48</time></li>
+  <li><strong>Magnitud: </strong> 0.56</li>
+  <li><strong>Lugar: </strong> 7km NW of The Geysers, California</li>
+  <li><strong>Tipo: </strong> earthquake</li>
+  <li><strong>Coordenadas: </strong> -122.8199997 , 38.8168335</li>
+  </ul>
+  <ul class="maps">
+  <li><button>Google Maps</button></li>
+  <li><button>Detalles en USGS</button></li>
+  </ul>
+ </ul>
+</div>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" type="text/javascript"></script>
+<script src="http://timeago.yarp.com/jquery.timeago.js" type="text/javascript"></script>
+<script>
+$(document).ready(function() {
+ $("time.timeago").timeago();
+});
+</script>
+</body>
+</html>
