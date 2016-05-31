@@ -1,11 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700);
-body{font-family: 'Lato', sans-serif; font-size: 16px}
+body{font-family: 'Lato', sans-serif; font-size: 16px; background:url(bg.jpg); padding:0 20px; margin:0}
+ul li a{color:#45ca58; text-decoration:none; font-weight:bold}
+ul li a:hover{color:#009b12}
 ul{list-style-type: none; line-height:20px}
-button{cursor: pointer;padding:10px; font-size:0.8em; border-radius: 3px; font-size:; background-color:#f2f1f1; border: 1px solid #B1B1B1;transition: all 0.3s ease-in-out}
-button:hover{background-color: #FFF; border:1px solid #979696;}
-button:active{border: 1px solid #B1B1B1}
-#filter{width:100%; padding: 0 20px 0 0}
-#filter ul{float:right;padding:20px 50px 0 0}
+#filter button{cursor: pointer;padding:10px; font-size:0.9em; color: #7b7c7e;border-color: #b5b8bb;border-radius: 100px;background-color: #FFF;padding: 12px 35px;letter-spacing: 1px;transition: all 0.3s ease-in-out 0s;}
+#filter button:hover{color:#fff;background-color:#45ca58;border-color:#45ca58;}
+#filter{width:100%;float:left;padding: 0 20px 0 0; margin:0 0 50px 0}
+#filter ul{float:right;margin: 50px 0;}
 #filter ul li, .eq ul.maps li{display:inline;margin:0 10px 0 0;}
-.eq{width:100%;float:left;}
+.eq{width:40%;float:left;background-color: #FFF;margin:0 25px 20px 0;padding:18px 0;border:1px solid #c4c4c4;}
 .eq ul li{margin:10px 0;}
+

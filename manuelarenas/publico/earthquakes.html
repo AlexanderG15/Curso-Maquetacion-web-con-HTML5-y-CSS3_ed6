@@ -7,14 +7,14 @@
 <body>
 <div id="filter">
 	<ul>
-	 <li><button>Significativos</button></li>
-	 <li><button>M4.5+</button></li>
-	 <li><button>M2.5+</button></li>
-	 <li><button>M1.0+</button></li>
-	 <li><button>Todos</button></li>
+	 <li><button id="signicative">Significativos</button></li>
+	 <li><button id="m4">M4.5+</button></li>
+	 <li><button id="m2">M2.5+</button></li>
+	 <li><button id="m1">M1.0+</button></li>
+	 <li><button id="all">Todos</button></li>
 	</ul>
 </div>
-<div class="eq">
+<div class="eq significative">
  <ul>
   <li><strong>Título: </strong>M 0.6 - 7km NW of The Geysers, California<li>
   <li><strong>Hora: </strong><time class="timeago" datetime="2016-05-17T09:24:17Z">17/5/2016 15:25:48</time></li>
@@ -22,10 +22,75 @@
   <li><strong>Lugar: </strong> 7km NW of The Geysers, California</li>
   <li><strong>Tipo: </strong> earthquake</li>
   <li><strong>Coordenadas: </strong> -122.8199997 , 38.8168335</li>
+  <li><a href="#">Google Maps</a></li>
+  <li><a href="#">Detalles en USGS</a></li>
   </ul>
   <ul class="maps">
-  <li><button>Google Maps</button></li>
-  <li><button>Detalles en USGS</button></li>
+  
+  </ul>
+ </ul>
+</div>
+<div class="eq m4">
+ <ul>
+  <li><strong>Título: </strong>M4.5+<li>
+  <li><strong>Hora: </strong><time class="timeago" datetime="2016-05-17T09:24:17Z">17/5/2016 15:25:48</time></li>
+  <li><strong>Magnitud: </strong> 0.56</li>
+  <li><strong>Lugar: </strong> 7km NW of The Geysers, California</li>
+  <li><strong>Tipo: </strong> earthquake</li>
+  <li><strong>Coordenadas: </strong> -122.8199997 , 38.8168335</li>
+  <li><a href="#">Google Maps</a></li>
+  <li><a href="#">Detalles en USGS</a></li>
+  </ul>
+  <ul class="maps">
+  
+  </ul>
+ </ul>
+</div>
+<div class="eq m2">
+ <ul>
+  <li><strong>Título: </strong>M2.5+<li>
+  <li><strong>Hora: </strong><time class="timeago" datetime="2016-05-17T09:24:17Z">17/5/2016 15:25:48</time></li>
+  <li><strong>Magnitud: </strong> 0.56</li>
+  <li><strong>Lugar: </strong> 7km NW of The Geysers, California</li>
+  <li><strong>Tipo: </strong> earthquake</li>
+  <li><strong>Coordenadas: </strong> -122.8199997 , 38.8168335</li>
+  <li><a href="#">Google Maps</a></li>
+  <li><a href="#">Detalles en USGS</a></li>
+  </ul>
+  <ul class="maps">
+  
+  </ul>
+ </ul>
+</div>
+<div class="eq m1">
+ <ul>
+  <li><strong>Título: </strong>M1.0+<li>
+  <li><strong>Hora: </strong><time class="timeago" datetime="2016-05-17T09:24:17Z">17/5/2016 15:25:48</time></li>
+  <li><strong>Magnitud: </strong> 0.56</li>
+  <li><strong>Lugar: </strong> 7km NW of The Geysers, California</li>
+  <li><strong>Tipo: </strong> earthquake</li>
+  <li><strong>Coordenadas: </strong> -122.8199997 , 38.8168335</li>
+  <li><a href="#">Google Maps</a></li>
+  <li><a href="#">Detalles en USGS</a></li>
+  </ul>
+  <ul class="maps">
+  
+  </ul>
+ </ul>
+</div>
+<div class="eq significative">
+ <ul>
+  <li><strong>Título: </strong>M 0.6 - 7km NW of The Geysers, California<li>
+  <li><strong>Hora: </strong><time class="timeago" datetime="2016-05-17T09:24:17Z">17/5/2016 15:25:48</time></li>
+  <li><strong>Magnitud: </strong> 0.56</li>
+  <li><strong>Lugar: </strong> 7km NW of The Geysers, California</li>
+  <li><strong>Tipo: </strong> earthquake</li>
+  <li><strong>Coordenadas: </strong> -122.8199997 , 38.8168335</li>
+  <li><a href="#">Google Maps</a></li>
+  <li><a href="#">Detalles en USGS</a></li>
+  </ul>
+  <ul class="maps">
+  
   </ul>
  </ul>
 </div>
@@ -34,6 +99,16 @@
 <script>
 $(document).ready(function() {
  $("time.timeago").timeago();
+});
+</script>
+<script>
+$(document).ready(function(){
+    $("#significative").click(function(){
+        $("button").hide();
+    });
+    $("#show").click(function(){
+        $("p").show();
+    });
 });
 </script>
 </body>
