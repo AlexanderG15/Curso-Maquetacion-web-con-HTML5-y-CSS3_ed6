@@ -7,14 +7,14 @@
 <body>
 <div id="filter">
 	<ul>
-	 <li><button id="signicative">Significativos</button></li>
+	 <li><button id="significat">Significativos</button></li>
 	 <li><button id="m4">M4.5+</button></li>
 	 <li><button id="m2">M2.5+</button></li>
 	 <li><button id="m1">M1.0+</button></li>
 	 <li><button id="all">Todos</button></li>
 	</ul>
 </div>
-<div class="eq significative">
+<div class="eq significat">
  <ul>
   <li><strong>Título: </strong>M 0.6 - 7km NW of The Geysers, California<li>
   <li><strong>Hora: </strong><time class="timeago" datetime="2016-05-17T09:24:17Z">17/5/2016 15:25:48</time></li>
@@ -25,14 +25,11 @@
   <li><a href="#">Google Maps</a></li>
   <li><a href="#">Detalles en USGS</a></li>
   </ul>
-  <ul class="maps">
-  
-  </ul>
  </ul>
 </div>
-<div class="eq m4">
+<div class="eq m1">
  <ul>
-  <li><strong>Título: </strong>M4.5+<li>
+  <li><strong>Título: </strong>M1.0<li>
   <li><strong>Hora: </strong><time class="timeago" datetime="2016-05-17T09:24:17Z">17/5/2016 15:25:48</time></li>
   <li><strong>Magnitud: </strong> 0.56</li>
   <li><strong>Lugar: </strong> 7km NW of The Geysers, California</li>
@@ -40,9 +37,6 @@
   <li><strong>Coordenadas: </strong> -122.8199997 , 38.8168335</li>
   <li><a href="#">Google Maps</a></li>
   <li><a href="#">Detalles en USGS</a></li>
-  </ul>
-  <ul class="maps">
-  
   </ul>
  </ul>
 </div>
@@ -57,14 +51,11 @@
   <li><a href="#">Google Maps</a></li>
   <li><a href="#">Detalles en USGS</a></li>
   </ul>
-  <ul class="maps">
-  
-  </ul>
  </ul>
 </div>
-<div class="eq m1">
+<div class="eq m4">
  <ul>
-  <li><strong>Título: </strong>M1.0+<li>
+  <li><strong>Título: </strong>M4.5+<li>
   <li><strong>Hora: </strong><time class="timeago" datetime="2016-05-17T09:24:17Z">17/5/2016 15:25:48</time></li>
   <li><strong>Magnitud: </strong> 0.56</li>
   <li><strong>Lugar: </strong> 7km NW of The Geysers, California</li>
@@ -73,12 +64,9 @@
   <li><a href="#">Google Maps</a></li>
   <li><a href="#">Detalles en USGS</a></li>
   </ul>
-  <ul class="maps">
-  
-  </ul>
  </ul>
 </div>
-<div class="eq significative">
+<div class="eq significat">
  <ul>
   <li><strong>Título: </strong>M 0.6 - 7km NW of The Geysers, California<li>
   <li><strong>Hora: </strong><time class="timeago" datetime="2016-05-17T09:24:17Z">17/5/2016 15:25:48</time></li>
@@ -88,9 +76,6 @@
   <li><strong>Coordenadas: </strong> -122.8199997 , 38.8168335</li>
   <li><a href="#">Google Maps</a></li>
   <li><a href="#">Detalles en USGS</a></li>
-  </ul>
-  <ul class="maps">
-  
   </ul>
  </ul>
 </div>
@@ -103,11 +88,40 @@ $(document).ready(function() {
 </script>
 <script>
 $(document).ready(function(){
-    $("#significative").click(function(){
-        $("button").hide();
+    $("#all").click(function(){
+        $(".significat").show();
+        $(".m4").show();
+        $(".m2").show();
+        $(".m1").show();
+
     });
-    $("#show").click(function(){
-        $("p").show();
+    $("#significat").click(function(){
+        $(".significat").show();
+        $(".m4").hide();
+        $(".m2").hide();
+        $(".m1").hide();
+
+    });
+    $("#m4").click(function(){
+        $(".significat").hide();
+        $(".m4").show();
+        $(".m2").hide();
+        $(".m1").hide();
+
+    });
+    $("#m2").click(function(){
+        $(".significat").hide();
+        $(".m4").hide();
+        $(".m2").show();
+        $(".m1").hide();
+
+    });
+    $("#m1").click(function(){
+        $(".significat").hide();
+        $(".m4").hide();
+        $(".m2").hide();
+        $(".m1").show();
+
     });
 });
 </script>
