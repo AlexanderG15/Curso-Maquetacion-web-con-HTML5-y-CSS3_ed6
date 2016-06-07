@@ -46,6 +46,8 @@ Teoría | Recursos
 [Clase 19](teoria/clase19.md) | [Clase 19](recursos/clase19.md)
 [Clase 20](teoria/clase20.md) | [Clase 20](recursos/clase20.md)
 
+**[Extra](teoria/extras.md)**
+
 Temario
 =================
 
