@@ -835,7 +835,8 @@
 - **2 - ¡Hagamos una web más semantica!** Partiendo del contenido de [Genbeta Dev](http://www.genbetadev.com/) y lo apredido hasta ahora en cuanto a semántica realiaza un documento HTML
   - *Nota: Omite los hipervinculos, hojas de estilos e imágenes. Trabaja solo con los textos*
   
-  ```html
+
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -879,4 +880,4 @@
     </main>
 </body>
 </html>
-  ``` 
+``` 
